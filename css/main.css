@@ -890,7 +890,8 @@ h4 {
   font-weight: 700;
   line-height: 1.66; }
 
-.portfolio-box .portfolio-name {
+.portfolio-box .portfolio-name, 
+a.portfolio-box a.portfolio-name {
   font-weight: 700;
   font-family: "Lato", sans-serif;
   font-size: 18px;
