@@ -377,11 +377,19 @@ img {
   margin-bottom: 30px; }
   .about-me-info p {
     margin-bottom: 10px; }
+  
   .about-me-info a.fonts-icons {
     padding-right: 20px;
     margin-bottom: 5px;
     min-width: 16px;
     text-align: center; }
+
+  .contact-area-socials {
+    padding-right: 10px;
+    margin-bottom: 5px;
+    min-width: 24px;
+    text-align: center; 
+  }
 
 .site-btn {
   color: #fff;
