@@ -43,6 +43,7 @@ body {
 }
 
 .point:after,
+.point-colon:after,
 .ellipsis {
   color: #5DA4FF; 
 }
@@ -189,6 +190,10 @@ img {
   content: '.'; 
 }
 
+.point-colon:after {
+  content: ':'; 
+}
+
 .main-menu {
   text-align: right; 
 }
@@ -205,6 +210,11 @@ img {
   display: inline-block; 
 }
 
+.email-address:hover {
+  color: #5DA4FF;
+}
+
+.email-address:hover,
 .main-menu ul li a:hover {
   text-decoration: underline; 
 }
@@ -750,6 +760,18 @@ img {
   margin-right: 30px; 
 }
 
+/* Temp Contact Area */
+.about-me-info-contact-area, 
+.span-title-contact-area, 
+.span-title-info-contact-area {
+  
+
+}
+/* .contact-area-socials */
+                
+
+/* end - Temp Contact Area */
+
 /* Modal */
 .st0 {
   fill: none; }
@@ -1006,7 +1028,11 @@ a.portfolio-box a.portfolio-name {
   .about-row .about-info {
     float: left;
     padding: 0px;
-    margin-right: 10px; }
+    margin-right: 10px;
+  }
+  .about-degree-name {
+    margin-top: 30px !important;
+  }
   .feedback-block .about-title {
     float: none; }
   .feedback-block .opacity-box {
