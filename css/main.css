@@ -768,18 +768,6 @@ img {
   margin-right: 30px; 
 }
 
-/* Temp Contact Area */
-.about-me-info-contact-area, 
-.span-title-contact-area, 
-.span-title-info-contact-area {
-  
-
-}
-/* .contact-area-socials */
-                
-
-/* end - Temp Contact Area */
-
 /* Modal */
 .st0 {
   fill: none; }
@@ -1116,7 +1104,16 @@ a.portfolio-box a.portfolio-name {
   @media screen and (max-width: 320px) {
     span.span-title-info {
       font-size: 12px; }
-  }
+    }
+
+    @media screen and (max-width: 375px) {
+      /* Temp Contact Area */
+      .about-me-info-contact-area, 
+      .span-title-contact-area, 
+      .span-title-info-contact-area {
+        font-size: 18px;
+      }
+    }
 
 
 
