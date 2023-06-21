@@ -418,7 +418,9 @@ img {
   margin-right: 30px; }
 
 .advantages-box {
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  outline: solid hotpink;
+}
   .advantages-box h4 {
     margin-bottom: 2px; }
 
