@@ -517,18 +517,39 @@ img {
   position: relative;
   overflow: hidden;
   height: auto; }
-  .portfolio-box .portfolio-img {
-    margin-bottom: 10px;
-    overflow: hidden;
-    border-radius: 2px; }
-    .portfolio-box .portfolio-img img {
-      margin: 0;
-      width: 100%;
-      height: auto;
-      transition: all 0.5s;
-      -moz-transition: all 0.5s;
-      -webkit-transition: all 0.5s;
-      -o-transition: all 0.5s; }
+
+.portfolio-box .portfolio-img {
+  min-width: 215px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 2px; }
+
+.portfolio-img-container {
+  display: flex;
+}
+
+.portfolio-img-1,
+.portfolio-img-2,
+.portfolio-img-3 {
+  float: left;
+  width:  200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio-name {
+  float: left;
+}
+
+.portfolio-box .portfolio-img img {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s; }
+
   .portfolio-box:hover .portfolio-img img {
     transform: scale(1.2);
     -ms-transform: scale(1.2);
